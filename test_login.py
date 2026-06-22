@@ -9,8 +9,8 @@ def test_successful_login(driver):
     login = LoginPage(driver)
 
     login.login(
-        "mahagaonkarsanika@gmail.com",
-        "sanika@123"
+        "-----",
+        "------------"
     )
     time.sleep(5)
     assert "dashboard" in driver.current_url.lower()
