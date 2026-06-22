@@ -34,7 +34,7 @@ def test_username_field(driver):
 
     login = LoginPage(driver)
 
-    login.enter_username("mahagaonkarsanika@gmail.com")
+    login.enter_username("------------")
 
     assert True
 
@@ -44,7 +44,7 @@ def test_password_field(driver):
 
     login = LoginPage(driver)
 
-    login.enter_password("sanika@123")
+    login.enter_password("---------------")
 
     assert True
 
@@ -65,8 +65,8 @@ def test_logout_functionality(driver):
     login = LoginPage(driver)
 
     login.login(
-        "mahagaonkarsanika@gmail.com",
-        "sanika@123"
+        "-------------------",
+        "---------------"
     )
 
 
