@@ -10,7 +10,7 @@ def test_successful_login(driver):
 
     login.login(
         "-----",
-        "------------"
+        "-----------"
     )
     time.sleep(5)
     assert "dashboard" in driver.current_url.lower()
